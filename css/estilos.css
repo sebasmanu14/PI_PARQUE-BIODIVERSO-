@@ -1,0 +1,78 @@
+
+.group {
+	border: 4px solid #43b12e;
+	padding: 20px;
+	width: 400px;
+	color: #006;
+border-radius: 8px;
+border-color:#036;
+	
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(23, 214, 55)), color-stop(100%,rgba(23, 214, 551))); /* Chrome,Safari4+ */
+	
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d1eeff',GradientType=0 ); /* IE6-9 */
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+
+
+
+
+/* Form input box style */
+.form-input {
+	display: block;
+	width: 300px;
+	height: 15px;
+	margin-bottom: 20px;
+	color: #000;
+	background-color: #FF9;
+	border: 1px solid #999;
+	box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.7), 0 1px 0 rgba(23, 214, 55, 23, 214, 55, 23, 214, 55, 0.1);
+	-moz-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	behavior: url(PIE.htc);
+	font-family: "Century Gothic";
+	font-size: 14px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+
+/* Focus style */
+.form-input:focus {
+	border: 1px solid #7fbbf9;
+	-moz-box-shadow:    inset 0 0 1px rgba(0, 0, 0, 0.7), 0 0 1px #7fbbf9;
+	-webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.7), 0 0 1px #7fbbf9;
+	box-shadow:         inset 0 0 1px rgba(0, 0, 0, 0.7), 0 0 1px #7fbbf9;
+}
+
+
+
+/* Form submit button */
+.form-btn {
+	padding: 0 15px;
+	height: 30px;
+	font: bold 12px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-align: center;
+	color: #fff;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.7);
+	cursor: pointer;
+	border: 1px solid #0d3d6a;
+	outline: none;
+	position: relative;
+	background-color: #1d83e2;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#1d83e2), to(#0d3d6a)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #1d83e2, #0d3d6a); /* Chrome 10+, Saf5.1+, iOS 5+ */
+	-moz-box-shadow:    inset 0 1px 0 rgba(23, 214, 55, 23, 214, 55, 23, 214, 55, 0.3), 0 1px 2px rgba(0, 0, 0, 0.7);
+	-webkit-box-shadow: inset 0 1px 0 rgba(23, 214, 55, 23, 214, 55, 23, 214, 55, 0.3), 0 1px 2px rgba(0, 0, 0, 0.7);
+	box-shadow:         inset 0 1px 0 rgba(23, 214, 55, 23, 214, 55, 23, 214, 55, 0.3), 0 1px 2px rgba(0, 0, 0, 0.7);
+	-moz-background-clip:    padding;
+	-webkit-background-clip: padding-box;
+	background-clip:         padding-box;
+	behavior: url(PIE.htc);
+}
